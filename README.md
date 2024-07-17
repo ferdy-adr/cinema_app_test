@@ -1,16 +1,26 @@
-# cinema_app_test
+# Cinema Ticketing App
+This is a simple applications to provide e-ticketing for enter cinema.
 
-A new Flutter project.
+<img  src="https://github.com/user-attachments/assets/d18a3cb9-cdd4-41ea-96e6-d165c0a28934"  width=265/>
+<img  src="https://github.com/user-attachments/assets/b868b333-7567-4687-80de-9b3b0a5bcf6c"  width=265/>
+</p>
 
-## Getting Started
+## Features
+- Movie list
+- Show QR for cinema E-ticket
 
-This project is a starting point for a Flutter application.
+## Installing
+- git clone https://github.com/ferdy-adr/cinema_app_test.git
+- flutter pub get
+- Buat sebuah file baru di folder root project bernama ".env"
+- Isi file ".env" tersebut dengan format sebagai berikut
+  
+  ```bash
+  BASE_URL=https://api.themoviedb.org
+  API_KEY= -- Letakkan API Key disini --
+  ```
+- flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# CHANGELOG
+v1.0.0
+- First Release
